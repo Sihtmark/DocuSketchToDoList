@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E43ADD2A7E948200423B17 /* DocuSketchToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43ADC2A7E948200423B17 /* DocuSketchToDoListApp.swift */; };
+		52E43AE12A7E948400423B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E43AE02A7E948400423B17 /* Assets.xcassets */; };
+		52E43AE52A7E948400423B17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E43AE42A7E948400423B17 /* Preview Assets.xcassets */; };
+		52E43AED2A7E94E400423B17 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AEC2A7E94E400423B17 /* ListView.swift */; };
+		52E43AEF2A7E94FA00423B17 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AEE2A7E94FA00423B17 /* ListRowView.swift */; };
+		52E43AF12A7E950C00423B17 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AF02A7E950C00423B17 /* AddView.swift */; };
+		52E43AF32A7E952100423B17 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AF22A7E952100423B17 /* NoItemsView.swift */; };
+		52E43AF52A7E95AD00423B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E43AF42A7E95AD00423B17 /* LaunchScreen.storyboard */; };
+		52E43AF72A7E95ED00423B17 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AF62A7E95ED00423B17 /* ViewModel.swift */; };
+		52E43AF92A7E967500423B17 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E43AF82A7E967500423B17 /* Task.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52E43AD92A7E948200423B17 /* DocuSketchToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuSketchToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E43ADC2A7E948200423B17 /* DocuSketchToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuSketchToDoListApp.swift; sourceTree = "<group>"; };
+		52E43AE02A7E948400423B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E43AE22A7E948400423B17 /* DocuSketchToDoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocuSketchToDoList.entitlements; sourceTree = "<group>"; };
+		52E43AE42A7E948400423B17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52E43AEC2A7E94E400423B17 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		52E43AEE2A7E94FA00423B17 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		52E43AF02A7E950C00423B17 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		52E43AF22A7E952100423B17 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		52E43AF42A7E95AD00423B17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E43AF62A7E95ED00423B17 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		52E43AF82A7E967500423B17 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E43AD62A7E948200423B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E43AD02A7E948200423B17 = {
+			isa = PBXGroup;
+			children = (
+				52E43ADB2A7E948200423B17 /* DocuSketchToDoList */,
+				52E43ADA2A7E948200423B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E43ADA2A7E948200423B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E43AD92A7E948200423B17 /* DocuSketchToDoList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E43ADB2A7E948200423B17 /* DocuSketchToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				52E43ADC2A7E948200423B17 /* DocuSketchToDoListApp.swift */,
+				52E43AE02A7E948400423B17 /* Assets.xcassets */,
+				52E43AE22A7E948400423B17 /* DocuSketchToDoList.entitlements */,
+				52E43AF42A7E95AD00423B17 /* LaunchScreen.storyboard */,
+				52E43AFA2A7E968D00423B17 /* ViewModels */,
+				52E43AFB2A7E969600423B17 /* Models */,
+				52E43AEB2A7E94CF00423B17 /* Views */,
+				52E43AE32A7E948400423B17 /* Preview Content */,
+			);
+			path = DocuSketchToDoList;
+			sourceTree = "<group>";
+		};
+		52E43AE32A7E948400423B17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52E43AE42A7E948400423B17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52E43AEB2A7E94CF00423B17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52E43AEC2A7E94E400423B17 /* ListView.swift */,
+				52E43AEE2A7E94FA00423B17 /* ListRowView.swift */,
+				52E43AF02A7E950C00423B17 /* AddView.swift */,
+				52E43AF22A7E952100423B17 /* NoItemsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52E43AFA2A7E968D00423B17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52E43AF62A7E95ED00423B17 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52E43AFB2A7E969600423B17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52E43AF82A7E967500423B17 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E43AD82A7E948200423B17 /* DocuSketchToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E43AE82A7E948400423B17 /* Build configuration list for PBXNativeTarget "DocuSketchToDoList" */;
+			buildPhases = (
+				52E43AD52A7E948200423B17 /* Sources */,
+				52E43AD62A7E948200423B17 /* Frameworks */,
+				52E43AD72A7E948200423B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocuSketchToDoList;
+			productName = DocuSketchToDoList;
+			productReference = 52E43AD92A7E948200423B17 /* DocuSketchToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E43AD12A7E948200423B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					52E43AD82A7E948200423B17 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 52E43AD42A7E948200423B17 /* Build configuration list for PBXProject "DocuSketchToDoList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = 52E43AD02A7E948200423B17;
+			productRefGroup = 52E43ADA2A7E948200423B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E43AD82A7E948200423B17 /* DocuSketchToDoList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E43AD72A7E948200423B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E43AF52A7E95AD00423B17 /* LaunchScreen.storyboard in Resources */,
+				52E43AE52A7E948400423B17 /* Preview Assets.xcassets in Resources */,
+				52E43AE12A7E948400423B17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E43AD52A7E948200423B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E43ADD2A7E948200423B17 /* DocuSketchToDoListApp.swift in Sources */,
+				52E43AF32A7E952100423B17 /* NoItemsView.swift in Sources */,
+				52E43AF12A7E950C00423B17 /* AddView.swift in Sources */,
+				52E43AED2A7E94E400423B17 /* ListView.swift in Sources */,
+				52E43AEF2A7E94FA00423B17 /* ListRowView.swift in Sources */,
+				52E43AF92A7E967500423B17 /* Task.swift in Sources */,
+				52E43AF72A7E95ED00423B17 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52E43AE62A7E948400423B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E43AE72A7E948400423B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		52E43AE92A7E948400423B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocuSketchToDoList/DocuSketchToDoList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocuSketchToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = VB8C9ZVKXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DocuSketch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sihtmark.DocuSketchToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52E43AEA2A7E948400423B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocuSketchToDoList/DocuSketchToDoList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocuSketchToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = VB8C9ZVKXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DocuSketch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sihtmark.DocuSketchToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E43AD42A7E948200423B17 /* Build configuration list for PBXProject "DocuSketchToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E43AE62A7E948400423B17 /* Debug */,
+				52E43AE72A7E948400423B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E43AE82A7E948400423B17 /* Build configuration list for PBXNativeTarget "DocuSketchToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E43AE92A7E948400423B17 /* Debug */,
+				52E43AEA2A7E948400423B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E43AD12A7E948200423B17 /* Project object */;
+}
