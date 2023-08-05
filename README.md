@@ -9,7 +9,8 @@ Create a To-Do List App
 - Users should be able to mark tasks as completed by tapping on them
 - Users should be able to delete tasks by swiping left on them
 
-Xcode 14
-iOS 16.4
-SwiftUI
-MVVM
+
+- Xcode 14
+- iOS 16.4
+- SwiftUI
+- MVVM
